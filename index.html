@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Undangan Pernikahan - Gilang Satria Ramadhana & Fatihatul Makkiyah</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===== OVERLAY BUKA UNDANGAN ===== -->
+  <div class="opening-overlay" id="openingOverlay">
+    <div class="opening-bg-image">
+      <img src="assets/img/foto-buka-undangan.jpeg" alt="Foto Mempelai"
+           onerror="this.style.display='none'">
+    </div>
+    <div class="opening-bg-overlay"></div>
+
+    <div class="opening-content">
+      <div class="opening-ornament">✦ ✦ ✦</div>
+      <h4 class="opening-sub">The Wedding Of</h4>
+      <h1 class="opening-names">Gilang Satria Ramadhana</h1>
+      <div class="opening-and">&</div>
+      <h1 class="opening-names">Fatihatul Makkiyah</h1>
+      <div class="opening-date">14 . 12 . 2026</div>
+
+      <button class="btn-open" id="btnOpen">
+        <span class="btn-open-icon">💌</span>
+        <span>Buka Undangan</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Ornamen Bercahaya Jatuh -->
+  <div id="particles"></div>
+
+  <!-- Music Button -->
+  <div class="music-btn" id="musicBtn" title="Play Music">♪</div>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="bgmusic.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ===== COVER ===== -->
+  <header class="cover">
+    <div class="cover-bg-image">
+      <img src="assets/img/foto-buka-undangan.jpeg" alt="Foto Mempelai"
+           onerror="this.style.display='none'">
+    </div>
+    <div class="cover-bg-overlay"></div>
+
+    <div class="cover-content">
+      <div class="ornament-top">✦ ✦ ✦</div>
+      <h3>The Wedding Of</h3>
+      <div class="names">Gilang Satria Ramadhana</div>
+      <div class="and">&</div>
+      <div class="names">Fatihatul Makkiyah</div>
+      <div class="date">14 . 12 . 2026</div>
+      <div class="divider">❦</div>
+      <div class="scroll-hint">▼ SCROLL ▼</div>
+    </div>
+  </header>
+
+  <!-- ===== QUOTE ===== -->
+  <section class="quote-section">
+    <div class="container">
+      <div class="section-title">Bismillahirrahmanirrahim</div>
+      <p class="quote">
+        "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu
+        pasangan hidup dari jenismu sendiri supaya kamu dapat ketenangan hati
+        dan menjadikan kasih sayang di antara kamu."
+      </p>
+      <div class="quote-source">— QS. Ar-Rum : 21 —</div>
+    </div>
+  </section>
+
+  <!-- ===== COUPLE ===== -->
+  <section class="couple-section">
+    <div class="container">
+      <div class="section-sub">Mempelai</div>
+      <div class="section-title">Mempelai Pria &amp; Wanita</div>
+
+      <div class="couple-grid">
+        <div class="person">
+          <div class="person-photo">
+            <img src="assets/img/foto-mempelai-1.jpeg" alt="Gilang Satria Ramadhana">
+          </div>
+          <div class="person-name">Gilang Satria Ramadhana</div>
+          <a class="person-ig" href="https://www.instagram.com/gsatriar" target="_blank" rel="noopener">
+            <svg class="ig-icon-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span>@gsatriar</span>
+          </a>
+        </div>
+
+        <div class="and-symbol">&amp;</div>
+
+        <div class="person">
+          <div class="person-photo">
+            <img src="assets/img/foto-mempelai-2.jpeg" alt="Fatihatul Makkiyah">
+          </div>
+          <div class="person-name">Fatihatul Makkiyah</div>
+          <a class="person-ig" href="https://www.instagram.com/fatihatulmakkiyah" target="_blank" rel="noopener">
+            <svg class="ig-icon-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span>@fatihatulmakkiyah</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WAKTU & TEMPAT + COUNTDOWN ===== -->
+  <section class="event-section">
+    <div class="container">
+      <div class="section-sub">Save The Date</div>
+      <div class="section-title">Waktu &amp; Tempat</div>
+
+      <div class="event-cards-dark">
+        <div class="event-card-dark">
+          <div class="event-icon-dark">💍</div>
+          <div class="event-label-dark">Akad Nikah</div>
+          <div class="event-date-dark">Senin, 14 Desember 2026</div>
+          <div class="event-time-dark">🕐 08.00 - 10.00 WIB</div>
+        </div>
+
+        <div class="event-card-dark">
+          <div class="event-icon-dark">🥂</div>
+          <div class="event-label-dark">Resepsi</div>
+          <div class="event-date-dark">Senin, 14 Desember 2026</div>
+          <div class="event-time-dark">🕐 11.00 WIB - Selesai</div>
+        </div>
+      </div>
+
+      <div class="countdown-wrapper">
+        <div class="countdown-label">Menuju Hari Bahagia</div>
+        <div class="countdown" id="countdown">
+          <div class="count-box">
+            <div class="count-num" id="cd-days">0</div>
+            <div class="count-label">Hari</div>
+          </div>
+          <div class="count-box">
+            <div class="count-num" id="cd-hours">0</div>
+            <div class="count-label">Jam</div>
+          </div>
+          <div class="count-box">
+            <div class="count-num" id="cd-mins">0</div>
+            <div class="count-label">Menit</div>
+          </div>
+          <div class="count-box">
+            <div class="count-num" id="cd-secs">0</div>
+            <div class="count-label">Detik</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="location-dark">
+        <div class="location-icon-dark">📍</div>
+        <div class="location-name-dark">Gedung Pertemuan Lampung</div>
+        <div class="location-address-dark">Bandar Lampung, Lampung</div>
+        <a class="btn-maps-dark" href="https://maps.google.com/?q=Gedung+Pertemuan+Lampung" target="_blank">
+          <span>🗺️</span> Buka Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERI FOTO (8 FOTO) ===== -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-sub">Momen Kami</div>
+      <div class="section-title">Galeri Foto</div>
+      <p class="quote" style="margin-bottom: 30px;">
+        Momen-momen indah kebersamaan kami yang terekam dalam lensa
+      </p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item"><img src="assets/img/gallery1.jpeg" alt="Foto 1"></div>
+        <div class="gallery-item"><img src="assets/img/gallery2.jpeg" alt="Foto 2"></div>
+        <div class="gallery-item"><img src="assets/img/gallery3.jpeg" alt="Foto 3"></div>
+        <div class="gallery-item"><img src="assets/img/gallery4.jpeg" alt="Foto 4"></div>
+        <div class="gallery-item"><img src="assets/img/gallery5.jpeg" alt="Foto 5"></div>
+        <div class="gallery-item"><img src="assets/img/gallery6.jpeg" alt="Foto 6"></div>
+        <div class="gallery-item"><img src="assets/img/gallery7.jpeg" alt="Foto 7"></div>
+        <div class="gallery-item"><img src="assets/img/gallery8.jpeg" alt="Foto 8"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RSVP ===== -->
+  <section class="rsvp-section">
+    <div class="container">
+      <div class="section-sub">Konfirmasi Kehadiran</div>
+      <div class="section-title">RSVP</div>
+
+      <div class="rsvp-wrapper">
+        <form class="rsvp-form" id="rsvpForm">
+          <input type="text" id="name" placeholder="Nama Anda" required>
+          <select id="attend" required>
+            <option value="">Konfirmasi Kehadiran</option>
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+            <option value="Masih Ragu">Masih Ragu</option>
+          </select>
+          <textarea id="message" rows="3" placeholder="Ucapan &amp; Doa..."></textarea>
+          <button type="submit" class="btn-gold">Kirim Konfirmasi</button>
+        </form>
+
+        <div class="rsvp-result" id="rsvpResult">
+          <div class="result-empty">
+            <div class="result-icon">💌</div>
+            <p>Isi form di samping untuk melihat konfirmasi Anda di sini</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="thanks">Thank You</div>
+    <p>
+      Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+      Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu
+      kepada kedua mempelai.
+    </p>
+    <div class="names-footer">Gilang Satria Ramadhana &amp; Fatihatul Makkiyah</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
